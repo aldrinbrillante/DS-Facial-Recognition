@@ -23,17 +23,29 @@ aldrin_face_encoding = face_recognition.face_encodings(image_of_aldrin)[0]
 image_of_shanelle = face_recognition.load_image_file('./img/known/Shanelle Valencia.png')
 shanelle_face_encoding = face_recognition.face_encodings(image_of_shanelle)[0]
 
+#Brian
+image_of_brian = face_recognition.load_image_file('./img/known/Brian Ross.png')
+brian_face_encoding = face_recognition.face_encodings(image_of_brian)[0]
+
+#Gobind
+image_of_gobind = face_recognition.load_image_file('./img/known/Gobind Puniani.png')
+gobind_face_encoding = face_recognition.face_encodings(image_of_gobind)[0]
+
 
 
 #  Create arrays of encodings and names
 known_face_encodings = [
   aldrin_face_encoding,
-  shanelle_face_encoding
+  shanelle_face_encoding,
+  brian_face_encoding,
+  gobind_face_encoding
 ]
 
 known_face_names = [
   "Aldrin Brillante",
-  "Shanelle Valencia"
+  "Shanelle Valencia",
+  "Brian Ross",
+  "Gobind Puniani"
 ]
 
 # Load test image to find faces in
@@ -41,7 +53,8 @@ known_face_names = [
 # test_image = face_recognition.load_image_file('./img/groups/random-group.png')
 
 ####BEWARE OF THIS RUN SEMI RIGHT####
-test_image = face_recognition.load_image_file('./img/groups/workaholics.png')
+# test_image = face_recognition.load_image_file('./img/groups/workaholics.png')
+test_image = face_recognition.load_image_file('./img/groups/theboyz.png')
 
 
 # Find faces in test image
