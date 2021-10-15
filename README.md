@@ -39,6 +39,8 @@ you do face recognition on a folder of images from the command line!
 5. #### If you want just a list of names of the faces of the people in the image, you can do:
       - $ face_recognition ./img/known ./img/unknown | cut -d ',' -f2
 
+6. #### Now that you have installed and launched your virtual environment, you're ready to code!
+
 
 ## Features
 
@@ -46,7 +48,7 @@ you do face recognition on a folder of images from the command line!
 
 Find all the faces that appear in a picture:
 
-![](https://cloud.githubusercontent.com/assets/896692/23625227/42c65360-025d-11e7-94ea-b12f28cb34b4.png)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/groups/theboyz.png?raw=true)
 
 ```python
 import face_recognition
