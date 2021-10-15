@@ -30,11 +30,11 @@ you do face recognition on a folder of images from the command line!
       - $ pip3 install tolerance
 4. #### Run a match on known and unknown to see which of these are pictures of specific people.
       - $ face_recognition ./img/known ./img/unknown
-      - we can show the distance of each match with:
-            $ face_recognition --show-distance true ./img/known ./img/unknown
-            * gives us a number for the differences between pictures 
-            * you can set a tolerance and implement it for stronger differences using:
-                $ face_recognition --tolerance 0.50 ./img/known ./img/unknown
+      - #### we can show the distance of each match with:
+            - $ face_recognition --show-distance true ./img/known ./img/unknown
+                  - gives us a number for the differences between pictures 
+            - you can set a tolerance and implement it for stronger differences using:
+                  - $ face_recognition --tolerance 0.50 ./img/known ./img/unknown
 
 5. #### If you want just a list of names of the faces of the people in the image, you can do:
       - $ face_recognition ./img/known ./img/unknown | cut -d ',' -f2
