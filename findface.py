@@ -8,6 +8,8 @@ import face_recognition
 
 image = face_recognition.load_image_file('./img/groups/group1-ravecrew.png') # There are 15 forward facing people in this photo
 image_2 = face_recognition.load_image_file('./img/groups/group2-solo.png')
+# image_2 = face_recognition.load_image_file('./img/groups/squad.png')
+
 
 face_locations = face_recognition.face_locations(image)
 face_locations_2 = face_recognition.face_locations(image_2)
