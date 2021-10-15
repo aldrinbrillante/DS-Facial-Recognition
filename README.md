@@ -141,7 +141,7 @@ You can even use this library with other Python libraries to do real-time face r
 
 ![](https://cloud.githubusercontent.com/assets/896692/24430398/36f0e3f0-13cb-11e7-8258-4d0c9ce1e419.gif)
 
-### Note: this specific project has not integrated live cam facial recognition as of yet (10/15/2021). Will update soon. Stay tuned!
+# Note: this specific project has not integrated live cam facial recognition as of yet (10/15/2021). Will update soon. Stay tuned!
 
 
 
