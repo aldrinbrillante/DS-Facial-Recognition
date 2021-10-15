@@ -18,9 +18,9 @@ you do face recognition on a folder of images from the command line!
 
 ## Initial Steps
 
-1. install/launch virtual environment
-    pip3 install pipenv
-    pipenv shell -> which will start your virtenv
+1. Install & launch virtual environment:
+      - pip3 install pipenv
+      - pipenv shell -> which will start your virtenv
 
 
 ## Features
