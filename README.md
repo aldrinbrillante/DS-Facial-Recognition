@@ -59,11 +59,11 @@ Then, make sure you have cmake installed:
 6. #### Now that you have installed and launched your virtual environment, you're ready to code!
 
 
-## Features
+## Features & Project Results
 
 #### Find faces in pictures
 
-Find all the faces that appear in a picture:
+Find all the front-facing faces that appear in a picture:
 
 ![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/groups/theboyz.png?raw=true)
 
@@ -88,11 +88,19 @@ Find all the faces that appear in a picture:
 ![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/253.jpg?raw=true)
 ![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/246.jpg?raw=true)
 
+#### Text Output: "There are {num of people} in the photo."
+
 
 ```python
 import face_recognition
 image = face_recognition.load_image_file("your_file.jpg")
 face_locations = face_recognition.face_locations(image)
+
+for face_location in face_locations:
+    top, right, bottom, left = face_location
+    face_image = image[top:bottom, left:right]
+    pil_image = Image.fromarray(face_image)
+    pil_image.show()
 ```
 
 #### Find and manipulate facial features in pictures
