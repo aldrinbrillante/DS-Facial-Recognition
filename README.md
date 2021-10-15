@@ -27,11 +27,7 @@ you do face recognition on a folder of images from the command line!
 
 #### Installing on Mac or Linux
 
-First, make sure you have dlib already installed with Python bindings:
-
-  * [How to install dlib from source on macOS or Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
-  
-Then, make sure you have cmake installed:  
+First, make sure you have dlib already installed with Python bindings: 
  
 ```brew install cmake```
 
@@ -115,8 +111,6 @@ image = face_recognition.load_image_file("your_file.jpg")
 face_landmarks_list = face_recognition.face_landmarks(image)
 ```
 
-Finding facial features is super useful for lots of important stuff. But you can also use it for really stupid stuff
-like applying [digital make-up](https://github.com/ageitgey/face_recognition/blob/master/examples/digital_makeup.py) (think 'Meitu'):
 
 ![](https://cloud.githubusercontent.com/assets/896692/23625283/80638760-025d-11e7-80a2-1d2779f7ccab.png)
 
@@ -158,7 +152,6 @@ You can even use this library with other Python libraries to do real-time face r
 
 First, make sure you have dlib already installed with Python bindings:
 
-  * [How to install dlib from source on macOS or Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
   
 Then, make sure you have cmake installed:  
  
@@ -172,33 +165,13 @@ pip3 install face_recognition
 
 Alternatively, you can try this library with [Docker](https://www.docker.com/), see [this section](#deployment).
 
-If you are having trouble with installation, you can also try out a
-[pre-configured VM](https://medium.com/@ageitgey/try-deep-learning-in-python-now-with-a-fully-pre-configured-vm-1d97d4c3e9b).
-
 #### Installing on an Nvidia Jetson Nano board
-
- * [Jetson Nano installation instructions](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd)
-   * Please follow the instructions in the article carefully. There is current a bug in the CUDA libraries on the Jetson Nano that will cause this library to fail silently if you don't follow the instructions in the article to comment out a line in dlib and recompile it.
-
-#### Installing on Raspberry Pi 2+
-
-  * [Raspberry Pi 2+ installation instructions](https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65)
 
 #### Installing on FreeBSD
 
 ```bash
 pkg install graphics/py-face_recognition
 ```
-
-#### Installing on Windows
-
-While Windows isn't officially supported, helpful users have posted instructions on how to install this library:
-
-  * [@masoudr's Windows 10 installation guide (dlib + face_recognition)](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
-
-#### Installing a pre-configured Virtual Machine image
-
-  * [Download the pre-configured VM image](https://medium.com/@ageitgey/try-deep-learning-in-python-now-with-a-fully-pre-configured-vm-1d97d4c3e9b) (for VMware Player or VirtualBox).
 
 ## Usage
 
@@ -333,8 +306,7 @@ face_locations = face_recognition.face_locations(image)
 # face_locations is now an array listing the co-ordinates of each face!
 ```
 
-See [this example](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py)
- to try it out.
+
 
 You can also opt-in to a somewhat more accurate deep-learning-based face detection model.
 
@@ -351,12 +323,6 @@ face_locations = face_recognition.face_locations(image, model="cnn")
 # face_locations is now an array listing the co-ordinates of each face!
 ```
 
-See [this example](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py)
- to try it out.
-
-If you have a lot of images and a GPU, you can also
-[find faces in batches](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_batches.py).
-
 ##### Automatically locate the facial features of a person in an image
 
 ```python
@@ -369,8 +335,7 @@ face_landmarks_list = face_recognition.face_landmarks(image)
 # face_landmarks_list[0]['left_eye'] would be the location and outline of the first person's left eye.
 ```
 
-See [this example](https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
- to try it out.
+
 
 ##### Recognize faces in images and identify who they are
 
