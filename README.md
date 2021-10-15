@@ -23,7 +23,8 @@ you do face recognition on a folder of images from the command line!
       - $ pip3 install pipenv
       - $ pipenv shell
           - This will start your virtual environment
-
+2. Install Python's Facial Recognition Library
+      - $ pipenv install face_recognition
 
 ## Features
 
