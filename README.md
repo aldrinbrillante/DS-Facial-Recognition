@@ -18,6 +18,23 @@ you do face recognition on a folder of images from the command line!
 
 ## Initial Steps
 
+### Requirements
+
+  * Python 3.3+ or Python 2.7
+  * macOS or Linux (Windows not officially supported, but might work)
+
+### Installation Options:
+
+#### Installing on Mac or Linux
+
+First, make sure you have dlib already installed with Python bindings:
+
+  * [How to install dlib from source on macOS or Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
+  
+Then, make sure you have cmake installed:  
+ 
+```brew install cmake```
+
 1. #### Install & launch virtual environment:
       - Open your device's terminal
       - $ pip3 install pipenv
@@ -102,11 +119,9 @@ You can even use this library with other Python libraries to do real-time face r
 
 ### Note: this specific project has not integrated live cam facial recognition as of yet (10/15/2021). Will update soon. Stay tuned!
 
-## Online Demos
 
-User-contributed shared Jupyter notebook demo (not officially supported): [![Deepnote](https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg)](https://beta.deepnote.org/launch?template=face_recognition)
 
-## Installation
+## Detailed Installation Requirements Post-Project
 
 ### Requirements
 
