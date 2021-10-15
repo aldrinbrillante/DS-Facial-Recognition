@@ -1,6 +1,5 @@
-# Face Recognition
+# Python Integrated Facial Recognition Intensive
 
-_You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese 日本語](https://github.com/m-i-k-i/face_recognition/blob/master/README_Japanese.md)._
 
 Recognize and manipulate faces from Python or from the command line with
 the world's simplest face recognition library.
@@ -16,6 +15,13 @@ you do face recognition on a folder of images from the command line!
 [![PyPI](https://img.shields.io/pypi/v/face_recognition.svg)](https://pypi.python.org/pypi/face_recognition)
 [![Build Status](https://github.com/ageitgey/face_recognition/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/ageitgey/face_recognition/actions?query=workflow%3ACI)
 [![Documentation Status](https://readthedocs.org/projects/face-recognition/badge/?version=latest)](http://face-recognition.readthedocs.io/en/latest/?badge=latest)
+
+## Initial Steps
+
+1. install/launch virtual environment
+    pip3 install pipenv
+    pipenv shell -> which will start your virtenv
+
 
 ## Features
 
