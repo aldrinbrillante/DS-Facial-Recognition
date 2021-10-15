@@ -18,12 +18,12 @@ you do face recognition on a folder of images from the command line!
 
 ## Initial Steps
 
-1. Install & launch virtual environment:
+1. #### Install & launch virtual environment:
       - Open your device's terminal
       - $ pip3 install pipenv
       - $ pipenv shell
           - This will start your virtual environment
-2. Install Python's Facial Recognition Library
+2. #### Install Python's Facial Recognition Library
       - $ pipenv install face_recognition
 
 ## Features
