@@ -71,6 +71,22 @@ Find all the faces that appear in a picture:
 ![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/faces-pulled/167.jpg?raw=true)
 ![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/faces-pulled/811.jpg?raw=true)
 
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/groups/group1-ravecrew.png?raw=true)
+
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/653.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/641.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/414.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/387.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/385.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/364.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/354.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/345.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/312.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/288.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/271.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/254.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/253.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/246.jpg?raw=true)
 
 
 ```python
