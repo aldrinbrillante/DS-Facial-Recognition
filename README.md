@@ -50,6 +50,12 @@ Find all the faces that appear in a picture:
 
 ![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/groups/theboyz.png?raw=true)
 
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/faces-pulled/345.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/faces-pulled/167.jpg?raw=true)
+![](https://github.com/aldrinbrillante/DS-Facial-Recognition/blob/main/img/faces-pulled/811.jpg?raw=true)
+
+
+
 ```python
 import face_recognition
 image = face_recognition.load_image_file("your_file.jpg")
